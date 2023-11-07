@@ -1,7 +1,19 @@
+import TaskPage from './pages/TasksPage';
+import GlobalStyle from './styles/global';
+
 function App() {
+
   return (
-    <div>Dev</div>
+  <>
+    <TaskPage />
+    <GlobalStyle />
+  </>
+     
+  
   );
 }
 
 export default App;
+
+
+
